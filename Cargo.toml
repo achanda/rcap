@@ -1,0 +1,9 @@
+[package]
+name = "rcap"
+version = "0.1.0"
+authors = ["Abhishek Chanda <abhishek.becs@gmail.com>"]
+description = "A library to work with Linux capabilities"
+license = "Apache-2.0"
+
+[dependencies]
+libc="*"
