@@ -2,8 +2,11 @@
 #![allow(non_camel_case_types)]
 #![allow(non_upper_case_globals)]
 #![allow(non_snake_case)]
+#![allow(dead_code)]
 
 extern crate libc;
+
+mod caps;
 
 pub type __int128_t = ::libc::c_void;
 pub type __uint128_t = ::libc::c_void;
